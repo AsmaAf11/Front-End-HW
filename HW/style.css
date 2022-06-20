@@ -1,0 +1,84 @@
+.center{
+    display:block;
+    margin:auto;
+    padding:2px;
+    height:400px;
+    width:700px;
+}
+
+.time{
+    display:block;
+    margin:auto;
+    height:100px;
+    width:600px;
+}
+
+body{
+    margin: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 100px 0px 0px 0px ;
+    font-size:20px;
+}
+
+.p1{
+    margin: 100px;
+    text-align:center;
+    font-size: 150%;
+}
+
+
+  
+
+ul.dashed {
+    margin: 100px;
+    list-style-type: none;
+  }
+ul.dashed > li {
+    text-indent: -20px;
+  }
+ul.dashed > li:before {
+    content: "-";
+    text-indent: -20px;
+  }
+
+
+ol{
+    margin: 100px;
+    text-align:left;
+    list-style-type:symbols();
+}
+h3{
+    margin: 100px;
+}
+hr{
+    width: 70%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:70px;
+  }
+
+  ol.mylis {
+    margin: 100px;
+    list-style-type: none;
+  }
+ol.mylis > li {
+    text-indent: -20px;
+  }
+ol.mylis > li:before {
+    content: ")";
+    text-indent: -20px;
+  }
